@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif !important; 
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.twelvewhite{
+    color: #ffffff;
+    font-size: 12px;
+}
+.twelveblack{
+    color: black;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+.sixteenwhitee{
+    color: #F4FBF3;
+    font-size: 14px;
+}
+.tenwhite {
+    color: #F4FBF3;
+    font-size: 10px;
+}
+.eight {
+       color: #F4FBF3;
+    font-size: 10px;
+}
+.sixteenwhite{
+    color: white;
+    font-size: 14px;
+}
+.twentywhite { 
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.mainheading { 
+    color: #000000;
+    font-size: 40px;
+    font-weight: 700;
+}
+.twentyonly { 
+   color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.sixteenlight{
+    color: #39284A;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+.twelvelight {
+    color: #39284A;
+    font-size: 12px;
+}
+.twelvepurple {
+        color: #84689B;
+    font-size: 12px;
+}
+.sixteenblack{
+    color: black;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+.sixteenpurple{
+    color: #84689B;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+
+.fourteenpara {
+    color: #7F7F7F;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+}
+.twelvepara {
+    color: #7F7F7F;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+}
+.twentyeight {
+    color: #84689B;
+    font-size: 28px !important;
+    font-weight: 600 !important;
+}
+.twentynew {
+    color: #84689B;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+}
+.twentyblak {
+    color: #39284A;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+}
+.sixtenn {
+    color: #39284A;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+.footerlogo{
+    height: 80px;
+    width: 250px;
+}
+.blueback{
+    background-color: #3B1E54;
+    color: white;
+}
+.bluebackd{
+    background-color: #39284A;
+    color: white;
+}
+.btnlogin {
+    padding: 8px 30px;
+    background-color:white !important;
+    font-size: 12px;
+    color: #3B1E54 !important;
+        border-radius: 5px;
+    border: 1px solid #3B1E54;
+}
+.btnloginblue {
+    padding: 8px 30px;
+    background-color:#3B1E54 !important;
+    font-size: 12px;
+    color: white !important;
+        border-radius: 5px;
+    border: 1px solid #3B1E54;
+}
+ .blogbtn {
+        padding: 8px 30px;
+    background-color:transparent !important;
+    font-size: 12px;
+    color: #84689B !important;
+        border-radius: 5px;
+    border: 1px solid #84689B;
+
+}
+.btndiv{
+    padding:8px 30px;
+    background-color:white !important;
+    font-size: 12px;
+    color: black !important;
+    position: relative;
+    z-index: 99;
+    transition: 0.5s;
+    border-radius: 5px;
+    border: 1px solid #3B1E54;
+}
+.btn{
+    padding:0.375rem 0.375rem !important;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    background-color: White;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.btn::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width:2rem;
+    height:12rem;
+    background-color: black;
+    transform: translate(-50%, -50% ) rotate(45deg);
+    animation :animate 2s linear infinite ;
+}
+@keyframes animate {
+    100%{
+        transform: translate(-50%, -50% ) rotate(225deg);
+    }
+}
+.btn:hover .btndiv{
+background-color: white;
+color: black;
+}
+.btn:hover{
+    
+    background-color: white;
+    box-shadow: 0 0 10px white,
+    0 0 40px white,
+    0 0 80px white;
+
+}
+
+
+.btndivs{
+    padding: 12px 30px;
+    background-color:#3B1E54 !important;
+    font-size: 12px;
+    color: white !important;
+    position: relative;
+    z-index: 99;
+    transition: 0.5s;
+    border-radius: 5px;
+
+}
+.btn2{
+    padding:0.375rem 0.375rem !important;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    background-color: White;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.btn2::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width:2rem;
+    height:12rem;
+    background-color: black;
+    transform: translate(-50%, -50% ) rotate(45deg);
+    animation :animate 2s linear infinite ;
+}
+@keyframes animate {
+    100%{
+        transform: translate(-50%, -50% ) rotate(225deg);
+    }
+}
+.btn2:hover .btndivs{
+background-color: white;
+color: black;
+}
+.btn2:hover{  
+    background-color: white;
+    box-shadow: 0 0 10px #3B1E54,
+    0 0 40px #3B1E54,
+    0 0 80px #3B1E54;
+
+}
+
+
+.divborder {
+    border:1px solid #84689B80;
+    border-radius:8px;
+}
+.divborderr{
+     border:1px solid #84689B80;
+    border-radius:17px;
+}
+.backimgs {
+    background-image: url('./images/Group 31.svg');
+    background-size: contain; /* or 'contain' depending on your needs */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%; /* Optional: ensures it spans full width of parent */
+}
+
+.backimgss {
+    background-image: url('./images/image\ \(03\).svg');
+    background-size: contain; /* or 'contain' depending on your needs */
+    background-repeat: no-repeat;
+    height: 147px;
+    width: 100%; /* Optional: ensures it spans full width of parent */
+}
+.newbackimg {
+        background-image: url('./images/hero\ session.svg');
+    background-size: contain; /* or 'contain' depending on your needs */
+    background-repeat: no-repeat;
+    height: 315px;
+
+}
+.blogdiv {
+    background-color: #F8FAFA;
+    border-radius: 10px;
+}
+
+
+.searchimgback {
+
+    background-image: url('./images/image\ \(03\).svg');
+    background-size: cover; /* or 'contain' depending on your needs */
+    background-repeat: no-repeat;
+
+    width: 100%; /* Optional: ensures it spans full width of parent */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*new custom for everyone */
+
+.divc {
+    background-color: #846b99; 
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: 400px;
+  
+}
+input {
+    width: 75%;
+    padding: 12px;
+    border: none;
+    margin-right: 15px !important;
+    border-radius: 5px !important;
+    outline: none;
+    background-color: #b3a1c4;
+    color: #2c1b3a;
+    font-size: 12px !important;
+}
+input::placeholder {
+    color: #5d496c;
+}
+button {
+    
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px !important;
+    background-color: #1b1321; /* Dark button */
+    color: white;
+    font-size: 12px !important;
+    margin-left: 8px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #2b1c32;
+}
+
+
+
+
+
+
+.form-select{
+    color:#7F7F7F !important;
+    border: 0px !important;
+    font-size:14px !important;
+        line-height: 2.5 !important;
+}
+.formbutton {
+    color:white !important;
+    border: 0px !important;
+    font-size:14px !important;
+        line-height: 1.6 !important;
+        background-color: #84689B;
+        width:100%;
+}
+.form-selects {
+  background-color: #fff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='none' stroke='%2339284A' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  appearance: none;
+  border: 1px solid #39284A;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 600;
+  color: #39284A;
+  line-height: 2.5 !important;
+  border-radius: 0.25rem;
+}
+.searchbtn{
+    border:1px solid #39284A;
+color: #39284A;
+font-size: 12px;
+background-color: transparent;
+border-radius: 80px !important;
+padding: 5px 15px;
+font-weight: 600;
+}
+.searchbtn:hover {
+    border:1px solid #39284A;
+color: #39284A;
+font-size: 12px;
+background-color: transparent;
+border-radius: 80px !important;
+padding: 5px 15px;
+font-weight: 600;
+}
